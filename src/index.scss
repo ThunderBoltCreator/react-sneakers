@@ -1,0 +1,87 @@
+body {
+  margin: 0;
+  background-color: #E7F6FF;
+  font-family: 'Inter';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.wrapper {
+  background: #FFFFFF;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.04);
+  border-radius: 20px;
+  max-width: 1080px;
+  margin: 0 auto;
+}
+
+header {
+  .headerLeft {
+    img {
+      margin-right: 15px;
+    }
+    h3, p {
+      margin: 0;
+    }
+  }
+  border-bottom: 1px solid #EAEAEA;
+
+  .headerRight {
+    li {
+      &:not(:last-child) {
+        margin-right: 30px;
+      }
+      span {
+        margin-left: 10px;
+      }
+    }
+  }
+}
+
+.content {
+  h1 {
+    margin: 0;
+  }
+  .card {
+    padding: 20px 29px;
+    border-radius: 40px;
+    border: 1px solid #F3F3F3;
+    max-width: 210px;
+    transition: 0.3s ease;
+    &:hover {
+      box-shadow: 0px 14px 30px rgba(0, 0, 0, 0.05);
+    }
+    img {
+      max-width: 133px;
+    }
+    p {
+      font-size: 14px;
+      line-height: 17px;
+      color: #000000;
+    }
+    span {
+      font-size: 11px;
+      line-height: 13px;
+      text-transform: uppercase;
+      color: #BDBDBD;
+    }
+    button {
+      width: 32px;
+      height: 32px;
+      border: 1px solid #F2F2F2;
+      border-radius: 8px;
+      background: #FFF;
+      position: relative;
+      cursor: pointer;
+      &::before {
+        content: '';
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 11px;
+        height: 11px;
+        background: url("../public/img/button.svg") 0 0 / cover no-repeat;
+      }
+    }
+  }
+}
