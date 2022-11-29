@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/ThunderBoltCreator/react-sneakersnpm/static/css/main.53450379.css",
+    "main.js": "/ThunderBoltCreator/react-sneakersnpm/static/js/main.4011e06b.js",
+    "index.html": "/ThunderBoltCreator/react-sneakersnpm/index.html",
+    "static/media/button.svg": "/ThunderBoltCreator/react-sneakersnpm/static/media/button.a4c35ddbacd9564e07ef.svg",
+    "main.53450379.css.map": "/ThunderBoltCreator/react-sneakersnpm/static/css/main.53450379.css.map",
+    "main.4011e06b.js.map": "/ThunderBoltCreator/react-sneakersnpm/static/js/main.4011e06b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.53450379.css",
+    "static/js/main.4011e06b.js"
+  ]
+}
